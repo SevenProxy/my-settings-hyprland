@@ -1,0 +1,8 @@
+/* Copyright (C) 2025 - SevenProxy */
+
+/* Text Font */
+
+
+* {
+    font: "JetBrainsMonoNL Nerd Font Mono 16";
+}

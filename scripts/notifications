@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+## Copyright (C) 2025 - SevenProxy
+##
+## launch mako with alt config
+
+CONFIG="$HOME/.config/hypr/mako/config"
+
+if [[ ! `pidof mako` ]]; then
+	mako --config ${CONFIG}
+fi
